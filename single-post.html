@@ -56,35 +56,42 @@
         <!-- 
         Fixed Navigation
         ==================================== -->
-        <header class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <header id="navigation" class="navbar navbar-inverse">
             <div class="container">
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <!-- responsive nav button -->
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html">
+					<!-- /responsive nav button -->
+					
+					<!-- logo -->
+                    <a class="navbar-brand" href="#body">
 						<h1 id="logo">
-							<img src="img/logo-meghna.png" alt="Meghna" />
+							<img src="img/logo-meghna2.png" alt="Meghna" />
 						</h1>
 					</a>
+					<!-- /logo -->
                 </div>
 
-                <nav class="collapse navbar-collapse navbar-right" >
+				<!-- main nav -->
+                <nav class="collapse navbar-collapse navbar-right" role="Navigation">
                     <ul id="nav" class="nav navbar-nav">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="index.html#about">About Us</a></li>
-                        <li><a href="index.html#services">Services</a></li>
-                        <li><a href="index.html#our-team">Team</a></li>
-                        <li><a href="index.html#pricing">Pricing</a></li>
-                        <li><a href="index.html#showcase">Portfolio</a></li>
-                        <li><a href="index.html#blog">Blog</a></li>
-                        <li><a href="index.html#contact-us">Contact</a></li>
+                        <li class="current"><a href="#body">Home</a></li>
+                        <li><a href="#about">About Me</a></li>
+                        <!--<li><a href="#services">Services</a></li>-->
+                        <li><a href="#showcase">Portfolio</a></li>
+                        <!--<li><a href="#our-team">Team</a></li>-->
+                        <!--<li><a href="#pricing">Pricing</a></li>-->
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#contact-us">Contact</a></li>
                     </ul>
-
-                </nav><!-- /.navbar-collapse -->
+                </nav>
+				<!-- /main nav -->
+				
             </div>
         </header>
         <!--
@@ -103,7 +110,7 @@
                             <i class="fa fa-book fa-4x"></i>
                         </div>
                         <div class="blog-title">
-                            <h1>Welcome to Our Blog</h1>
+                            <h1>Welcome to My Blog</h1>
                         </div>
                         
 					</div>     <!-- End col-lg-12 -->
@@ -178,9 +185,9 @@
                                     <h5>Follow The Author</h5>
 									<div class="social-profile">
 										<ul>
-											<li><a href="#"><i class="fa fa-facebook-square fa-2x"></i></a></li>
-											<li><a href="#"><i class="fa fa-twitter-square fa-2x"></i></a></li>
-											<li><a href="#"><i class="fa fa-linkedin-square fa-2x"></i></a></li>
+											<li><a href="http://weibo.com/5582802604/profile?topnav=1&wvr=6&is_all=1"><i class="fa fa-weibo fa-2x"></i></a></li>
+											<li><a href="https://github.com/newlifebegins"><i class="fa fa-github fa-2x"></i></a></li>
+											<li><a href="http://git.oschina.net/wangwei112012232"><i class="fa fa-git fa-2x"></i></a></li>
 										</ul>
 									</div>
                                 </div>
@@ -488,21 +495,25 @@
 						<!-- Footer Social Links -->
 						<div class="social-icon">
 							<ul>
-								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-								<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-								<li><a href="#"><i class="fa fa-youtube"></i></a></li>
-								<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-								<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-								<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+								<li><a href="http://weibo.com/5582802604/profile?topnav=1&wvr=6&is_all=1"><i class="fa fa-weibo"></i></a></li>
+								<li><a href="https://github.com/newlifebegins"><i class="fa fa-github"></i></a></li>
+								<li><a href="http://git.oschina.net/wangwei112012232"><i class="fa fa-git"></i></a></li>
+								<!--<li><a href="#"><i class="fa fa-youtube"></i></a></li>-->
+								<!--<li><a href="#"><i class="fa fa-linkedin"></i></a></li>-->
+								<!--<li><a href="#"><i class="fa fa-dribbble"></i></a></li>-->
+								<!--<li><a href="#"><i class="fa fa-pinterest"></i></a></li>-->
 							</ul>
 						</div>
 						<!--/. End Footer Social Links -->
 
 						<!-- copyright -->
 						<div class="copyright text-center">
-							<img src="img/logo-meghna.png" alt="Meghna" /> <br />
-							<p>932337522 &copy;All Rights Reserved.</p>
+							<a href="index.html">
+								<img src="img/logo-meghna2.png" alt="Meghna" /> 
+							</a>
+							<br />
+							
+							<p><a href="#">112012232</a>&copy;2015. All Rights Reserved.</p>
 						</div>
 						<!-- /copyright -->
 						
