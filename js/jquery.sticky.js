@@ -38,8 +38,8 @@
         if (scrollTop <= etse) {
           if (s.currentTop !== null) {
             s.stickyElement
-              .css('position', '')
-              .css('top', '');
+              .css('position', 'fixed')
+              .css('top', '0');
             s.stickyElement.trigger('sticky-end', [s]).parent().removeClass(s.className);
             s.currentTop = null;
           }
