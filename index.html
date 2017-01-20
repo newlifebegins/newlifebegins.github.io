@@ -1465,8 +1465,9 @@
 			</div> <!-- end container -->
 			
 			<!-- Baidu Map -->
+			<div id="map-canvas" style="width:1190px; height:501px;margin: 0 auto;"></div>
 			<div class="wow fadeInDown" data-wow-duration="500ms">
-				<div id="allmap" style="height: 450px"></div>
+				<div id="allmap" style="width:1190px; height:501px;margin: 20px auto;"></div>
 			</div>	
 			<!-- /Baidu Map -->
 			
@@ -1547,7 +1548,7 @@
 		<!-- tweetie.min -->
 		<script src="js/tweetie.min.js"></script>
 		<!-- Google Map API -->
-		
+		<script type="text/javascript" src="http://ditu.google.cn/maps/api/js?sensor=false"> </script>
 		<!-- Highlight menu item -->
 		<script src="js/jquery.nav.js"></script>
 		<!-- Sticky Nav -->
@@ -1570,7 +1571,7 @@
 			map.centerAndZoom('太原', 11);  // 初始化地图,设置中心点坐标和地图级别
 			map.addControl(new BMap.MapTypeControl());   //添加地图类型控件
 			map.setCurrentCity("太原");          // 设置地图显示的城市 此项是必须设置的
-			map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放
+			//map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放
 		</script>
 
 
